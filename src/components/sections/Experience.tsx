@@ -41,15 +41,15 @@ export const Experience: React.FC = () => {
 
         {/* Tab System */}
         <div className="flex gap-8 mb-12 border-b border-outline-variant/10">
-          <button 
+          <button
             onClick={() => setActiveTab('experience')}
-            className={`pb-4 px-2 font-bold transition-all text-xl tracking-wide ${activeTab === 'experience' ? 'text-[#7bd0ff] border-b-2 border-[#7bd0ff] drop-shadow-[0_0_12px_rgba(123,208,255,0.6)]' : 'text-slate-500 hover:text-slate-300'}`}
+            className={`cursor-pointer pb-4 px-2 font-bold transition-all text-xl tracking-wide ${activeTab === 'experience' ? 'text-[#7bd0ff] border-b-2 border-[#7bd0ff] drop-shadow-[0_0_12px_rgba(123,208,255,0.6)]' : 'text-slate-500 hover:text-slate-300'}`}
           >
             Experience
           </button>
-          <button 
+          <button
             onClick={() => setActiveTab('education')}
-            className={`pb-4 px-2 font-bold transition-all text-xl tracking-wide ${activeTab === 'education' ? 'text-[#7bd0ff] border-b-2 border-[#7bd0ff] drop-shadow-[0_0_12px_rgba(123,208,255,0.6)]' : 'text-slate-500 hover:text-slate-300'}`}
+            className={`cursor-pointer pb-4 px-2 font-bold transition-all text-xl tracking-wide ${activeTab === 'education' ? 'text-[#7bd0ff] border-b-2 border-[#7bd0ff] drop-shadow-[0_0_12px_rgba(123,208,255,0.6)]' : 'text-slate-500 hover:text-slate-300'}`}
           >
             Education
           </button>
@@ -190,7 +190,7 @@ const EducationCard: React.FC = () => {
             <h3 className="text-2xl font-bold font-headline text-white group-hover:text-[#7bd0ff] transition-colors">Diploma in Computer Science and Technology</h3>
             <div className="flex items-center gap-2 mt-2 text-slate-400">
               <Library className="w-4 h-4" />
-              <p className="font-medium tracking-wide">Polytechnic Institute</p>
+              <p className="font-medium tracking-wide">CPI Management and Technology, Polytechnic Institute, Mirpur-6, Dhaka</p>
             </div>
           </div>
         </div>
