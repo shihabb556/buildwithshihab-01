@@ -20,13 +20,13 @@ export const Projects: React.FC = () => {
       img: "/project/health-portal.png",
       link: "https://health-portall-1.vercel.app/medicines"
     },
-    // {
-    //   title: "Core OS Shell",
-    //   tags: ["Electron", "Node.js", "Rust"],
-    //   desc: "A desktop productivity suite designed for extreme speed and minimalist workflows.",
-    //   img: "https://lh3.googleusercontent.com/aida-public/AB6AXuC-KM2b4jSRqWI0Usu9LHEPUyrLXgZMQHhncUDeDwykdVLcg5XkVdzZaGfFt_nqYAuRnSQ2GYWhlxd1Wm4Pt0bM4y6TbrSnaekghfxbskCQGILUTg7vgi-nYMBoNeDQJHGFZXa3OObvgQSUiVoip7woyeDPvIs9FzjT2DuMMIAofSfinhPHvfIkenSK-FrqoTZwTHGq1cwHi7tVf_fP4mSBkPj1WcnIcIFnjoGfGDPV_EgOcq_XQ9rzbgcRcTq3doEg5yMrYftZRvg",
-    //   link: "#"
-    // }
+    {
+      title: "GreenFields AgroTech | An Agro Company Portfolio",
+      tags: ["Reactjs", "Tailwind CSS", "Lucide Icons", "Framer Motion"],
+      desc: "GreenFields AgroTech is a comprehensive agro-based company portfolio website built with Reactjs and Tailwind CSS. It features a modern, responsive design with a focus on user experience. The platform includes a wide range of features such as product listings, shopping cart functionality, user authentication, and order management.",
+      img: "/project/greenfields-agrotech.png",
+      link: "https://greenfields-agrotech.vercel.app"
+    }
   ];
 
   return (
