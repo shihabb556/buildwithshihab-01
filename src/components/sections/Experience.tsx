@@ -3,11 +3,10 @@ import { useLanguage } from '../../context/LanguageContext';
 
 export const Experience: React.FC = () => {
   const { t } = useLanguage();
-  const [filter, setFilter] = useState('All');
+  const [filter] = useState('All');
 
   // Safe default arrays to avoid crashes if translation logic misses
   const experienceData = Array.isArray(t('experience.items')) ? t('experience.items') : [];
-  const filtersList = Array.isArray(t('experience.filtersList')) ? t('experience.filtersList') : ['All', 'Frontend', 'Backend', 'Fullstack'];
 
   const filteredExperiences = filter === 'All'
     ? experienceData

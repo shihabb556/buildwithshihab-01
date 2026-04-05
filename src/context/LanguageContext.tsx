@@ -1,9 +1,8 @@
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import React, { createContext, useContext, useState, useEffect, type ReactNode } from 'react';
 import en from '../locales/en.json';
 import bn from '../locales/bn.json';
 
 type Language = 'en' | 'bn';
-type Dictionary = typeof en;
 
 interface LanguageContextProps {
   language: Language;

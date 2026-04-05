@@ -5,7 +5,6 @@ export const About: React.FC = () => {
   const { t } = useLanguage();
 
   const stats = t('about.stats') as Array<{ value: string, label: string }>;
-  const certifications = t('about.certifications') as string[];
 
   return (
     <section className="py-24 bg-surface-container-low" id="about">

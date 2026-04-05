@@ -1,6 +1,5 @@
 import React from 'react';
 import { useLanguage } from '../../context/LanguageContext';
-import { Card } from '../ui/Card';
 
 export const Projects: React.FC = () => {
   const { t } = useLanguage();
