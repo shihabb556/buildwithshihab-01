@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "work": "Work",
+    "services": "Services",
+    "skills": "Skills",
+    "mission": "Mission",
+    "contact": "Contact",
+    "hireMe": "Hire Me"
+  },
+  "hero": {
+    "availability": "Available for freelance",
+    "namePrefix": "Md. Shihab",
+    "nameHighlight": "Uddin",
+    "titlePrefix": "Web Developer |",
+    "titleHighlight": "Frontend & Fullstack Specialist",
+    "description": "Architecting digital ecosystems with surgical precision. I transform complex ideas into fluid, high-performance web experiences.",
+    "hireMe": "Hire Me",
+    "viewProjects": "View Projects"
+  },
+  "about": {
+    "titlePrefix": "The Architect",
+    "titleHighlight": "Behind",
+    "titleSuffix": "the Machine",
+    "description": "With over 7 years of experience in building enterprise-grade applications, I specialize in creating software that is as beautiful as it is functional. My approach combines rigorous engineering with a deep understanding of user psychology.",
+    "stats": [
+      { "value": "120+", "label": "Projects" },
+      { "value": "7+", "label": "Years Exp" },
+      { "value": "45+", "label": "Clients" },
+      { "value": "99%", "label": "Satisfaction" }
+    ],
+    "certifications": [
+      "Certified React Expert",
+      "AWS Solutions Architect",
+      "UI/UX Masterclass"
+    ]
+  },
+  "mission": {
+    "missionTitle": "Our Mission",
+    "missionDesc": "To push the boundaries of digital possibility by fusing artistic intuition with scientific precision. We don't just build websites; we build high-performance tools for growth.",
+    "visionTitle": "Our Vision",
+    "visionDesc": "To define the next era of the web where interface disappears and interaction becomes seamless. Creating a world where technology serves humanity through invisible excellence."
+  },
+  "skills": {
+    "titlePrefix": "Technical",
+    "titleHighlight": "Arsenal",
+    "description": "A showcase of the technologies I've mastered to bring world-class digital solutions to life."
+  },
+  "services": {
+    "titlePrefix": "Service",
+    "titleHighlight": "Spectrum"
+  },
+  "projects": {
+    "titlePrefix": "Featured",
+    "titleHighlight": "Deployments",
+    "description": "A curation of my most complex and impactful work.",
+    "filters": {
+      "all": "All",
+      "frontend": "Frontend",
+      "fullstack": "Fullstack"
+    }
+  },
+  "testimonials": {
+    "titlePrefix": "Client",
+    "titleHighlight": "Intel",
+    "description": "What industry leaders are saying about my collaborative approach and execution."
+  },
+  "contact": {
+    "titlePrefix": "Let's",
+    "titleHighlight": "Connect",
+    "description": "Ready to initiate your next project? Drop me a message and let's build something extraordinary.",
+    "emailLabel": "Email",
+    "locationLabel": "Location",
+    "formNameLabel": "Your Name",
+    "formNamePlaceholder": "John Doe",
+    "formEmailLabel": "Email Address",
+    "formEmailPlaceholder": "john@example.com",
+    "formSubjectLabel": "Subject",
+    "formSubjectPlaceholder": "New Project Inquiry",
+    "formMessageLabel": "Message",
+    "formMessagePlaceholder": "Tell me about your vision...",
+    "formSubmit": "Initiate Connection"
+  },
+  "footer": {
+    "copyright": "© 2024 Celestial Architect. All rights reserved. Built with precision and light."
+  }
+}
