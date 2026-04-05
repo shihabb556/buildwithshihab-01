@@ -23,7 +23,7 @@ export const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-xs text-slate-500 uppercase tracking-widest">{t('contact.emailLabel')}</p>
-                    <p className="font-bold">shihab@celestial.dev</p>
+                    <p className="font-bold">shihab@buildwithshihab.com</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">

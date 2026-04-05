@@ -3,6 +3,7 @@
     "work": "Work",
     "services": "Services",
     "skills": "Skills",
+    "experience": "Experience",
     "mission": "Mission",
     "contact": "Contact",
     "hireMe": "Hire Me"
@@ -32,6 +33,50 @@
       "Certified React Expert",
       "AWS Solutions Architect",
       "UI/UX Masterclass"
+    ]
+  },
+  "experience": {
+    "titlePrefix": "Career",
+    "titleHighlight": "Journey",
+    "description": "A chronological view of my professional timeline and the environments where I've crafted solutions.",
+    "filtersList": ["All", "Frontend", "Backend", "Fullstack"],
+    "items": [
+      {
+        "role": "Remote Assistant Developer",
+        "company": "Under Senior Software Engineer",
+        "duration": "1 Year",
+        "category": "Frontend",
+        "achievements": [
+          "Developed reusable UI components for Angular-based projects",
+          "Collaborated effectively in remote development flows alongside senior mentors",
+          "Ensured 100% responsiveness across various mobile and desktop platforms"
+        ],
+        "stack": ["Angular", "TypeScript", "Tailwind CSS", "RxJS"]
+      },
+      {
+        "role": "Junior React Developer",
+        "company": "TechNova Studio",
+        "duration": "8 Months",
+        "category": "Frontend",
+        "achievements": [
+          "Built interactive single-page applications using React and Context API",
+          "Optimized core web vitals and overall site performance by 20%",
+          "Integrated multiple RESTful APIs for real-time data visualization"
+        ],
+        "stack": ["React", "JavaScript", "REST APIs", "CSS Modules"]
+      },
+      {
+        "role": "Apprentice Fullstack Engineer",
+        "company": "DataStream Analytics",
+        "duration": "1.5 Years",
+        "category": "Fullstack",
+        "achievements": [
+          "Assisted in architecting backend schemas using MongoDB and Mongoose",
+          "Maintained and updated Node.js API endpoints for secure user authentication",
+          "Drafted clear technical documentation for onboarding new developers"
+        ],
+        "stack": ["Node.js", "Express", "MongoDB", "Auth0"]
+      }
     ]
   },
   "mission": {
@@ -81,6 +126,6 @@
     "formSubmit": "Initiate Connection"
   },
   "footer": {
-    "copyright": "© 2024 Celestial Architect. All rights reserved. Built with precision and light."
+    "copyright": "© 2024 BuildWithShihab. All rights reserved. Built with precision and light."
   }
 }
