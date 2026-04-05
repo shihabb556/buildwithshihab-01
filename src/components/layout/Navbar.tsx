@@ -11,7 +11,7 @@ export const Navbar: React.FC = () => {
   return (
     <nav className="fixed top-0 w-full z-50 bg-[#0b1326]/40 backdrop-blur-xl shadow-[0_15px_30px_-15px_rgba(180,197,255,0.1)]">
       <div className="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto font-headline tracking-tight">
-        <div className="text-2xl font-bold tracking-tighter text-[#b4c5ff]">BuildWithShihab</div>
+        <div className="text-2xl font-bold tracking-tighter text-[#b4c5ff]"><span className="text-[#7bd0ff]">BuildWith</span>Shihab</div>
         <div className="hidden lg:flex items-center space-x-8">
           <a className="text-slate-400 hover:text-slate-100 transition-colors duration-300" href="#work">{t('nav.work')}</a>
           <a className="text-slate-400 hover:text-slate-100 transition-colors duration-300" href="#experience">{t('nav.experience')}</a>
