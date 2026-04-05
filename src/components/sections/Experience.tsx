@@ -4,13 +4,13 @@ import { useLanguage } from '../../context/LanguageContext';
 export const Experience: React.FC = () => {
   const { t } = useLanguage();
   const [filter, setFilter] = useState('All');
-  
+
   // Safe default arrays to avoid crashes if translation logic misses
   const experienceData = Array.isArray(t('experience.items')) ? t('experience.items') : [];
   const filtersList = Array.isArray(t('experience.filtersList')) ? t('experience.filtersList') : ['All', 'Frontend', 'Backend', 'Fullstack'];
 
-  const filteredExperiences = filter === 'All' 
-    ? experienceData 
+  const filteredExperiences = filter === 'All'
+    ? experienceData
     : experienceData.filter((exp: any) => exp.category === filter);
 
   return (
@@ -23,9 +23,9 @@ export const Experience: React.FC = () => {
             </h2>
             <p className="text-slate-400">{t('experience.description')}</p>
           </div>
-          
+
           {/* Filtering Options */}
-          <div className="flex flex-wrap gap-4">
+          {/* <div className="flex flex-wrap gap-4">
             {filtersList.map((f: string) => (
               <button 
                 key={f}
@@ -35,9 +35,9 @@ export const Experience: React.FC = () => {
                 {f}
               </button>
             ))}
-          </div>
+          </div> */}
         </div>
-        
+
         {/* Experience Cards */}
         <div className="space-y-8">
           {filteredExperiences.map((exp: any, index: number) => (
@@ -69,7 +69,7 @@ const ExperienceCard: React.FC<{ experience: any }> = ({ experience }) => {
   }, []);
 
   return (
-    <div 
+    <div
       ref={ref}
       className={`glass p-8 rounded-3xl border border-outline-variant/10 shadow-lg group hover:scale-[1.01] hover:shadow-[0_0_35px_rgba(37,99,235,0.25)] hover:border-[#2563eb]/50 transition-all duration-700 transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}
       style={{ backgroundColor: '#0b132690' }}
@@ -87,13 +87,13 @@ const ExperienceCard: React.FC<{ experience: any }> = ({ experience }) => {
             </div>
           </div>
         </div>
-        
+
         <div className="flex items-center gap-2 bg-[#2563eb]/10 border border-[#2563eb]/30 px-5 py-2.5 rounded-full text-sm font-bold uppercase tracking-widest text-[#7bd0ff] w-fit shadow-[0_0_15px_rgba(37,99,235,0.15)]">
           <span className="material-symbols-outlined text-[16px]">schedule</span>
           {experience.duration}
         </div>
       </div>
-      
+
       <div className="mb-8 pl-4 border-l-2 border-outline-variant/30 group-hover:border-[#2563eb]/40 transition-colors">
         <h4 className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-4 flex items-center gap-2">
           <span className="material-symbols-outlined text-[16px]">task_alt</span>
@@ -108,7 +108,7 @@ const ExperienceCard: React.FC<{ experience: any }> = ({ experience }) => {
           ))}
         </ul>
       </div>
-      
+
       <div>
         <h4 className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-3 flex items-center gap-2">
           <span className="material-symbols-outlined text-[16px]">integration_instructions</span>
@@ -116,8 +116,8 @@ const ExperienceCard: React.FC<{ experience: any }> = ({ experience }) => {
         </h4>
         <div className="flex flex-wrap gap-2.5">
           {experience.stack?.map((tech: string, i: number) => (
-            <span 
-              key={i} 
+            <span
+              key={i}
               className="text-xs font-bold uppercase bg-surface-container-highest px-4 py-2 rounded-xl text-[#7bd0ff] border border-[#7bd0ff]/10 hover:border-[#7bd0ff]/50 hover:bg-[#7bd0ff]/10 transition-colors cursor-default"
             >
               {tech}

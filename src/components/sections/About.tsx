@@ -41,13 +41,13 @@ export const About: React.FC = () => {
               ))}
             </div>
 
-            <div className="flex flex-wrap gap-3">
+            {/* <div className="flex flex-wrap gap-3">
               {certifications?.map((cert, index) => (
                 <span key={index} className="bg-tertiary-container text-gray-400 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest border border-tertiary/20">
                   {cert}
                 </span>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

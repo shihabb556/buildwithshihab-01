@@ -54,7 +54,7 @@ export const Hero: React.FC = () => {
 
           <div className="flex flex-wrap gap-4 pt-4">
             <Button variant="primary" neon onClick={() => window.open('https://wa.me/8801770419889', '_blank')}>{t('hero.hireMe')}</Button>
-            <Button variant="glass">{t('hero.viewProjects')}</Button>
+            <a href="#work" className="glass px-4 rounded-lg text-center flex items-center hover:bg-primary/15 transition-colors duration-300">{t('hero.viewProjects')}</a>
           </div>
         </div>
 

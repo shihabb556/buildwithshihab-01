@@ -24,22 +24,41 @@
     "titleSuffix": "the Machine",
     "description": "With over 7 years of experience in building enterprise-grade applications, I specialize in creating software that is as beautiful as it is functional. My approach combines rigorous engineering with a deep understanding of user psychology.",
     "stats": [
-      { "value": "120+", "label": "Projects" },
-      { "value": "7+", "label": "Years Exp" },
-      { "value": "45+", "label": "Clients" },
-      { "value": "99%", "label": "Satisfaction" }
+      {
+        "value": "10+",
+        "label": "Projects"
+      },
+      {
+        "value": "2+",
+        "label": "Years Exp"
+      },
+      {
+        "value": "5+",
+        "label": "Clients"
+      },
+      {
+        "value": "99%",
+        "label": "Satisfaction"
+      }
     ],
     "certifications": [
-      "Certified React Expert",
-      "AWS Solutions Architect",
-      "UI/UX Masterclass"
+      "React.js Expert",
+      "Node.js Expert",
+      "Next.js Expert",
+      "TypeScript Expert",
+      "Tailwind CSS Expert"
     ]
   },
   "experience": {
     "titlePrefix": "Career",
     "titleHighlight": "Journey",
     "description": "A chronological view of my professional timeline and the environments where I've crafted solutions.",
-    "filtersList": ["All", "Frontend", "Backend", "Fullstack"],
+    "filtersList": [
+      "All",
+      "Frontend",
+      "Backend",
+      "Fullstack"
+    ],
     "items": [
       {
         "role": "Remote Assistant Developer",
@@ -51,38 +70,22 @@
           "Collaborated effectively in remote development flows alongside senior mentors",
           "Ensured 100% responsiveness across various mobile and desktop platforms"
         ],
-        "stack": ["Angular", "TypeScript", "Tailwind CSS", "RxJS"]
-      },
-      {
-        "role": "Junior React Developer",
-        "company": "TechNova Studio",
-        "duration": "8 Months",
-        "category": "Frontend",
-        "achievements": [
-          "Built interactive single-page applications using React and Context API",
-          "Optimized core web vitals and overall site performance by 20%",
-          "Integrated multiple RESTful APIs for real-time data visualization"
-        ],
-        "stack": ["React", "JavaScript", "REST APIs", "CSS Modules"]
-      },
-      {
-        "role": "Apprentice Fullstack Engineer",
-        "company": "DataStream Analytics",
-        "duration": "1.5 Years",
-        "category": "Fullstack",
-        "achievements": [
-          "Assisted in architecting backend schemas using MongoDB and Mongoose",
-          "Maintained and updated Node.js API endpoints for secure user authentication",
-          "Drafted clear technical documentation for onboarding new developers"
-        ],
-        "stack": ["Node.js", "Express", "MongoDB", "Auth0"]
+        "stack": [
+          "Angular",
+          "TypeScript",
+          "Tailwind CSS",
+          "RxJS",
+          "Honojs",
+          "GraphQl",
+          "Supabase"
+        ]
       }
     ]
   },
   "mission": {
-    "missionTitle": "Our Mission",
+    "missionTitle": "My Mission",
     "missionDesc": "To push the boundaries of digital possibility by fusing artistic intuition with scientific precision. We don't just build websites; we build high-performance tools for growth.",
-    "visionTitle": "Our Vision",
+    "visionTitle": "My Vision",
     "visionDesc": "To define the next era of the web where interface disappears and interaction becomes seamless. Creating a world where technology serves humanity through invisible excellence."
   },
   "skills": {
@@ -114,6 +117,7 @@
     "titleHighlight": "Connect",
     "description": "Ready to initiate your next project? Drop me a message and let's build something extraordinary.",
     "emailLabel": "Email",
+    "callLabel": "Whatsapp",
     "locationLabel": "Location",
     "formNameLabel": "Your Name",
     "formNamePlaceholder": "John Doe",
@@ -126,6 +130,6 @@
     "formSubmit": "Initiate Connection"
   },
   "footer": {
-    "copyright": "© 2024 BuildWithShihab. All rights reserved. Built with precision and light."
+    "copyright": "© 2026 BuildWithShihab. All rights reserved. Built with precision and light."
   }
 }

@@ -15,15 +15,24 @@ export const Contact: React.FC = () => {
                 {t('contact.titlePrefix')} <span className="text-primary">{t('contact.titleHighlight')}</span>
               </h2>
               <p className="text-slate-400 mb-8">{t('contact.description')}</p>
-              
+
               <div className="space-y-6">
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+                    <span className="material-symbols-outlined">call</span>
+                  </div>
+                  <div>
+                    <p className="text-xs text-slate-500 uppercase tracking-widest">{t('contact.callLabel')}</p>
+                    <a target="_blank" rel="noopener noreferrer" href="https://wa.me/8801770419889" className="font-bold">+8801770419889</a>
+                  </div>
+                </div>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
                     <span className="material-symbols-outlined">mail</span>
                   </div>
                   <div>
                     <p className="text-xs text-slate-500 uppercase tracking-widest">{t('contact.emailLabel')}</p>
-                    <p className="font-bold">shihab@buildwithshihab.com</p>
+                    <p className="font-bold">shihabaly333@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -32,14 +41,14 @@ export const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-xs text-slate-500 uppercase tracking-widest">{t('contact.locationLabel')}</p>
-                    <p className="font-bold">San Francisco, CA (Remote)</p>
+                    <p className="font-bold">Mirpur, Dhaka, Bangladesh</p>
                   </div>
                 </div>
               </div>
             </div>
-            
+
             <div className="flex gap-4 mt-12">
-              <a className="w-10 h-10 rounded-full bg-surface flex items-center justify-center hover:text-primary transition-colors border border-outline-variant/20" href="#">
+              {/* <a className="w-10 h-10 rounded-full bg-surface flex items-center justify-center hover:text-primary transition-colors border border-outline-variant/20" href="#">
                 <span className="font-bold">Gh</span>
               </a>
               <a className="w-10 h-10 rounded-full bg-surface flex items-center justify-center hover:text-primary transition-colors border border-outline-variant/20" href="#">
@@ -47,10 +56,10 @@ export const Contact: React.FC = () => {
               </a>
               <a className="w-10 h-10 rounded-full bg-surface flex items-center justify-center hover:text-primary transition-colors border border-outline-variant/20" href="#">
                 <span className="font-bold">Tw</span>
-              </a>
+              </a> */}
             </div>
           </div>
-          
+
           <div className="lg:w-3/5 p-12">
             <form className="space-y-6" onSubmit={e => e.preventDefault()}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
