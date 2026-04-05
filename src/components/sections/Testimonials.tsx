@@ -17,14 +17,14 @@ export const Testimonials: React.FC = () => {
       name: "Sarah Jenkins",
       role: "CTO @ TechFlow",
       text: '"Alex didn\'t just build our app; he built a foundation for our entire future growth. His technical depth is unparalleled."',
-      img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBQBu-L8wvFr7YE9dmPrNkFIlycKiFhvq0ckkAon1jjlblp3VDev2q9KOjh6jcnD_l0z3ip2biTyubeJNfDUJ7RpvDdPg9-wmXl6bWN8ChNFXDpSrX5QHpZG5oqfmQE6Pz4cIN7a-2B0gpVVD0WPKihz5L98saBTf0-RJqYHd4gFQGnPRapjs5iWyRKqi-CYBb-7QmmRoNyISbgN6S--iJg6vo0joqwx6ETJ0wcfc5MPusIjfA_YO50WuwuK2Ft6wjFarniDa3VmR8",
+      img: "/images/client/client-1.png",
       borderColor: "border-primary/20"
     },
     {
       name: "Marcus Thorne",
       role: "Founder @ ArchiSoft",
       text: '"The level of precision in the UI Alex delivered was exactly what we were looking for. He is truly a master of the craft."',
-      img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAThoMLuNWpNy5K5PfL82MangqUxNDu5dVOYQ_tbShrlHGHkzBGsmRMm8GX7KSKPovPlcWtLjYr7fMMwWuCQd4IZq7HOobruds2BqOdp9XhIOzwMvaMHnRQ4vxtXdEVaG7KUbKFEd8aqUW33KYnO2O-USyL5HctOcQq3lybK3zQ_btwBIXGNibtae1YExhyWv5aUjNsJ5FWv3e-QPC0r7PwJpukBdBAf7VrOoBXkapW77r-9rkSMDQP7ECDUeTrFtVs842wRao3iks",
+      img: "/images/client/client-2.png",
       borderColor: "border-tertiary/20"
     }
   ];

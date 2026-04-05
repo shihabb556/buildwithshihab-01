@@ -17,7 +17,7 @@ export const About: React.FC = () => {
                 <img
                   alt="Md. Shihab Uddin Profile"
                   className="w-full h-full object-cover"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbrWCD9px4u_SHeFrblq3pf_bjNKnOn9AYPI7FjxirCDupQx909PAcA89ov-2WpO0aunmY73DE1JQK3_Xj8dar0BKRrYL1k1l-glR9pL1MGI-8cIJ3ThFltaTz6AdQu_0cFuOuP-8GUqiteo-t9mng30FsRdxdrugzY4AynXilX0L5aRu2ARxzJvnIuNi11CTOB2kl71Vm2RZhnG8IJE-qQ6S93P5VdEnZfgrl0q0fbq-W8vMtfjJhH168VmL9zMD9pKk7IGpPQIk"
+                  src="/images/profile.png"
                 />
               </div>
             </div>

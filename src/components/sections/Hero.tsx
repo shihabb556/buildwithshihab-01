@@ -88,7 +88,7 @@ export const Hero: React.FC = () => {
             <img
               alt="Code visualization"
               className="w-64 h-40 object-cover rounded-lg"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-mI9RObvB9TPKCfj7B7H1Su5KriPjFuYADx3mxIo_95EnTIZlgEz9P8Uvq4oXUlVPogJpI6osNZiGFGuO-UGo-cAOKs9EvZdY44U9-mnkL9sJd9EixaBCgKItJWfMQc2BQ4B5KVQrdc36xNlCx2umh66j-sErpgeIc7VPWeqz1ctW8k1GTuE-cdHrhIP_mRJAK3uafAAKbShuCmraqXo7QUuQIHOuQs3cw34EBMPVABiUrHFJSXVFrPTDzrBs4BDubKEpKANTSgI"
+              src="/images/hero-code.png"
             />
           </div>
         </div>

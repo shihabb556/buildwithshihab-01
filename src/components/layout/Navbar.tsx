@@ -19,12 +19,12 @@ export const Navbar: React.FC = () => {
           <a className="text-slate-400 hover:text-slate-100 transition-colors duration-300" href="#mission">{t('nav.mission')}</a>
           <a className="text-slate-400 hover:text-slate-100 transition-colors duration-300" href="#contact">{t('nav.contact')}</a>
           <LanguageSwitcher />
-          <Button variant="ghost" onClick={() => window.open('https://wa.me/8801770419889', '_blank')}>{t('nav.hireMe')}</Button>
+          <Button variant="ghost" className="cursor-pointer" onClick={() => window.open('https://wa.me/8801770419889', '_blank')}>{t('nav.hireMe')}</Button>
         </div>
         <div className="lg:hidden flex items-center">
           <LanguageSwitcher />
-          <button onClick={() => setIsOpen(!isOpen)} className="ml-4 text-primary">
-            <span className="material-symbols-outlined">{isOpen ? 'close' : 'menu'}</span>
+          <button onClick={() => setIsOpen(!isOpen)} className="ml-4 text-primary cursor-pointer">
+            <span className="material-symbols-outlined cursor-pointer">{isOpen ? 'close' : 'menu'}</span>
           </button>
         </div>
       </div>

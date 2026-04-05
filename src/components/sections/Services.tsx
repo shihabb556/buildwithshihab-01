@@ -41,7 +41,7 @@ export const Services: React.FC = () => {
             <img 
               alt="Performance graph" 
               className="w-32 h-32 rounded-2xl hidden lg:block object-cover opacity-60 grayscale group-hover:grayscale-0 transition-all duration-500" 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIVmQPt_isL6b5l2CNOaSYsY-UwtFwVjo75gfKgf9tqzYHGO7DAQ1CKwr9UmpBDIOYQNIbEg0wm-wC7G-kSirC-Sk2cM7iida-8soTFH4tS59BAPJHjcKBjaWuUBoiNKNSnh4PGytSjn9Fkx7S0TlwmlrmAZ8f-GfD1Nd7LIOxiUSFSXS4EAHwh4Bio1qrg9u0vHLziOlzRzlxM7sSNa6tqfSuPF1nagHwLr-7OxygUPPhdbj3rxSQZBLV4BpyFNU-jqAuWfa-P4s" 
+              src="/images/service-seo.png" 
             />
           </div>
         </div>
