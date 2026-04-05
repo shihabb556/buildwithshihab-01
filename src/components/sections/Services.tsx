@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../../context/LanguageContext';
+import { Code, Layers, Brush, TrendingUp } from 'lucide-react';
 
 export const Services: React.FC = () => {
   const { t } = useLanguage();
@@ -15,26 +16,26 @@ export const Services: React.FC = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-6 gap-6">
           <div className="md:col-span-3 glass p-10 rounded-3xl border border-outline-variant/10 hover:border-primary/30 transition-all duration-500 group">
-            <span className="material-symbols-outlined text-4xl text-primary mb-6 group-hover:scale-110 transition-transform">code</span>
+            <Code className="text-4xl text-primary mb-6 group-hover:scale-110 transition-transform w-9 h-9" />
             <h4 className="text-2xl font-bold mb-4">Frontend Engineering</h4>
             <p className="text-slate-400">Crafting high-fidelity, responsive, and accessible user interfaces that prioritize performance and delight.</p>
           </div>
           
           <div className="md:col-span-3 glass p-10 rounded-3xl border border-outline-variant/10 hover:border-tertiary/30 transition-all duration-500 group">
-            <span className="material-symbols-outlined text-4xl text-tertiary mb-6 group-hover:scale-110 transition-transform">layers</span>
+            <Layers className="text-4xl text-tertiary mb-6 group-hover:scale-110 transition-transform w-9 h-9" />
             <h4 className="text-2xl font-bold mb-4">Full Stack Development</h4>
             <p className="text-slate-400">End-to-end architecture from database design to server logic and seamless API integrations.</p>
           </div>
           
           <div className="md:col-span-2 glass p-10 rounded-3xl border border-outline-variant/10 hover:border-primary/30 transition-all duration-500 group">
-            <span className="material-symbols-outlined text-4xl text-primary mb-6 group-hover:scale-110 transition-transform">brush</span>
+            <Brush className="text-4xl text-primary mb-6 group-hover:scale-110 transition-transform w-9 h-9" />
             <h4 className="text-xl font-bold mb-4">UI/UX Strategy</h4>
             <p className="text-sm text-slate-400">User-centric design flows and high-fidelity prototyping that solves real business problems.</p>
           </div>
           
           <div className="md:col-span-4 glass p-10 rounded-3xl border border-outline-variant/10 hover:border-tertiary/30 transition-all duration-500 group flex items-center gap-8">
             <div className="flex-1">
-              <span className="material-symbols-outlined text-4xl text-tertiary mb-6 group-hover:scale-110 transition-transform">query_stats</span>
+              <TrendingUp className="text-4xl text-tertiary mb-6 group-hover:scale-110 transition-transform w-9 h-9" />
               <h4 className="text-xl font-bold mb-4">SEO & Performance</h4>
               <p className="text-sm text-slate-400">Optimizing core web vitals and search presence to ensure your product reaches its audience.</p>
             </div>

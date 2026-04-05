@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
 import { LanguageSwitcher } from '../ui/LanguageSwitcher';
 import { Button } from '../ui/Button';
+import { Menu, X } from 'lucide-react';
 
 export const Navbar: React.FC = () => {
   const { t } = useLanguage();
@@ -24,7 +25,7 @@ export const Navbar: React.FC = () => {
         <div className="lg:hidden flex items-center">
           <LanguageSwitcher />
           <button onClick={() => setIsOpen(!isOpen)} className="ml-4 text-primary cursor-pointer">
-            <span className="material-symbols-outlined cursor-pointer">{isOpen ? 'close' : 'menu'}</span>
+            {isOpen ? <X className="w-6 h-6 cursor-pointer" /> : <Menu className="w-6 h-6 cursor-pointer" />}
           </button>
         </div>
       </div>

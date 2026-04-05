@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../../context/LanguageContext';
+import { Phone, Mail, MapPin } from 'lucide-react';
 import { Button } from '../ui/Button';
 
 export const Contact: React.FC = () => {
@@ -19,7 +20,7 @@ export const Contact: React.FC = () => {
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
-                    <span className="material-symbols-outlined">call</span>
+                    <Phone className="w-6 h-6" />
                   </div>
                   <div>
                     <p className="text-xs text-slate-500 uppercase tracking-widest">{t('contact.callLabel')}</p>
@@ -28,7 +29,7 @@ export const Contact: React.FC = () => {
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
-                    <span className="material-symbols-outlined">mail</span>
+                    <Mail className="w-6 h-6" />
                   </div>
                   <div>
                     <p className="text-xs text-slate-500 uppercase tracking-widest">{t('contact.emailLabel')}</p>
@@ -37,7 +38,7 @@ export const Contact: React.FC = () => {
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
-                    <span className="material-symbols-outlined">location_on</span>
+                    <MapPin className="w-6 h-6" />
                   </div>
                   <div>
                     <p className="text-xs text-slate-500 uppercase tracking-widest">{t('contact.locationLabel')}</p>
@@ -80,7 +81,7 @@ export const Contact: React.FC = () => {
                 <label className="text-xs uppercase tracking-widest text-slate-500 font-bold">{t('contact.formMessageLabel')}</label>
                 <textarea className="w-full bg-surface-container-lowest border border-outline-variant/20 rounded-xl px-4 py-3 focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all" placeholder={t('contact.formMessagePlaceholder')} rows={5}></textarea>
               </div>
-              <Button variant="primary" neon className="w-full">{t('contact.formSubmit')}</Button>
+              <Button variant="primary" neon className="w-full cursor-pointer">{t('contact.formSubmit')}</Button>
             </form>
           </div>
         </div>

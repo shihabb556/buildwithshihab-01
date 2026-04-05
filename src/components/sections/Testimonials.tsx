@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 
 export const Testimonials: React.FC = () => {
   const { t } = useLanguage();
@@ -44,14 +45,14 @@ export const Testimonials: React.FC = () => {
                 className="w-12 h-12 rounded-full border border-outline-variant/20 flex items-center justify-center hover:bg-primary/20 transition-colors"
                 aria-label="Previous Testimonial"
               >
-                <span className="material-symbols-outlined">arrow_back</span>
+                <ArrowLeft />
               </button>
               <button 
                 onClick={scrollRight}
                 className="w-12 h-12 rounded-full border border-outline-variant/20 flex items-center justify-center hover:bg-primary/20 transition-colors"
                 aria-label="Next Testimonial"
               >
-                <span className="material-symbols-outlined">arrow_forward</span>
+                <ArrowRight />
               </button>
             </div>
           </div>

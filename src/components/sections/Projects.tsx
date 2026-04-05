@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../../context/LanguageContext';
+import { ExternalLink } from 'lucide-react';
 
 export const Projects: React.FC = () => {
   const { t } = useLanguage();
@@ -54,7 +55,7 @@ export const Projects: React.FC = () => {
               <div className="p-8">
                 <div className="flex justify-between items-start mb-4">
                   <h4 className="text-xl font-bold font-headline">{project.title}</h4>
-                  <a target="_blank" rel="noopener noreferrer" href={project.link}><span className="material-symbols-outlined text-primary">open_in_new</span></a>
+                  <a target="_blank" rel="noopener noreferrer" href={project.link}><ExternalLink className="text-primary w-6 h-6" /></a>
                 </div>
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.tags.map(tag => (

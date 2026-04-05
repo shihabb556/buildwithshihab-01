@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
+import { ChevronDown } from 'lucide-react';
 import { Button } from '../ui/Button';
 
 export const Hero: React.FC = () => {
@@ -53,7 +54,7 @@ export const Hero: React.FC = () => {
           </p>
 
           <div className="flex flex-wrap gap-4 pt-4">
-            <Button variant="primary" neon onClick={() => window.open('https://wa.me/8801770419889', '_blank')}>{t('hero.hireMe')}</Button>
+            <Button variant="primary" className="cursor-pointer" neon onClick={() => window.open('https://wa.me/8801770419889', '_blank')}>{t('hero.hireMe')}</Button>
             <a href="#work" className="glass px-4 rounded-lg text-center flex items-center hover:bg-primary/15 transition-colors duration-300">{t('hero.viewProjects')}</a>
           </div>
         </div>
@@ -96,7 +97,7 @@ export const Hero: React.FC = () => {
 
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <a href="#about" aria-label="Scroll Down">
-          <span className="material-symbols-outlined text-primary text-3xl">expand_more</span>
+          <ChevronDown className="text-primary w-8 h-8" />
         </a>
       </div>
     </section>

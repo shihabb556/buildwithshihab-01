@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
+import { Briefcase, Building2, Clock, CheckCircle, Code2 } from 'lucide-react';
 
 export const Experience: React.FC = () => {
   const { t } = useLanguage();
@@ -76,26 +77,26 @@ const ExperienceCard: React.FC<{ experience: any }> = ({ experience }) => {
       <div className="flex flex-col lg:flex-row justify-between lg:items-center gap-6 mb-8">
         <div className="flex gap-6 items-center">
           <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#2563eb]/20 to-[#7bd0ff]/20 flex items-center justify-center border border-[#7bd0ff]/20 group-hover:from-[#2563eb]/40 group-hover:to-[#7bd0ff]/40 transition-colors duration-500">
-            <span className="material-symbols-outlined text-3xl text-[#7bd0ff] group-hover:scale-110 transition-transform">work</span>
+            <Briefcase className="w-8 h-8 text-[#7bd0ff] group-hover:scale-110 transition-transform" />
           </div>
           <div>
             <h3 className="text-2xl font-bold font-headline text-white group-hover:text-[#7bd0ff] transition-colors">{experience.role}</h3>
             <div className="flex items-center gap-2 mt-2 text-slate-400">
-              <span className="material-symbols-outlined text-sm">business</span>
+              <Building2 className="w-4 h-4" />
               <p className="font-medium tracking-wide">{experience.company}</p>
             </div>
           </div>
         </div>
 
         <div className="flex items-center gap-2 bg-[#2563eb]/10 border border-[#2563eb]/30 px-5 py-2.5 rounded-full text-sm font-bold uppercase tracking-widest text-[#7bd0ff] w-fit shadow-[0_0_15px_rgba(37,99,235,0.15)]">
-          <span className="material-symbols-outlined text-[16px]">schedule</span>
+          <Clock className="w-4 h-4" />
           {experience.duration}
         </div>
       </div>
 
       <div className="mb-8 pl-4 border-l-2 border-outline-variant/30 group-hover:border-[#2563eb]/40 transition-colors">
         <h4 className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-4 flex items-center gap-2">
-          <span className="material-symbols-outlined text-[16px]">task_alt</span>
+          <CheckCircle className="w-4 h-4" />
           Key Achievements
         </h4>
         <ul className="space-y-3">
@@ -110,7 +111,7 @@ const ExperienceCard: React.FC<{ experience: any }> = ({ experience }) => {
 
       <div>
         <h4 className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-3 flex items-center gap-2">
-          <span className="material-symbols-outlined text-[16px]">integration_instructions</span>
+          <Code2 className="w-4 h-4" />
           Tech Stack
         </h4>
         <div className="flex flex-wrap gap-2.5">
