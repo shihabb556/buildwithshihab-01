@@ -8,9 +8,9 @@ export const Contact: React.FC = () => {
 
   return (
     <section className="py-24 bg-surface-container-low" id="contact">
-      <div className="max-w-7xl mx-auto px-8">
+      <div className="max-w-7xl mx-auto px-3 sm:px-8">
         <div className="glass rounded-[3rem] border border-outline-variant/10 overflow-hidden flex flex-col lg:flex-row">
-          <div className="lg:w-2/5 p-12 bg-primary-container/20 flex flex-col justify-between">
+          <div className="lg:w-2/5 p-6 sm:p-12 bg-primary-container/20 flex flex-col justify-between">
             <div>
               <h2 className="font-headline text-4xl font-bold mb-6">
                 {t('contact.titlePrefix')} <span className="text-primary">{t('contact.titleHighlight')}</span>
@@ -61,7 +61,7 @@ export const Contact: React.FC = () => {
             </div>
           </div>
 
-          <div className="lg:w-3/5 p-12">
+          <div className="lg:w-3/5 p-6 sm:p-12">
             <form className="space-y-6" onSubmit={e => e.preventDefault()}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
