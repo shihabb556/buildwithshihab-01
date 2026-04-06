@@ -7,26 +7,27 @@ export const Projects: React.FC = () => {
 
   const projectData = [
     {
+      title: "GreenFields AgroTech | An Agro Company Portfolio",
+      tags: ["Reactjs", "Tailwind CSS", "Lucide Icons", "Framer Motion"],
+      desc: "GreenFields AgroTech is a comprehensive agro-based company portfolio website built with Reactjs and Tailwind CSS. It features a modern, responsive design with a focus on user experience. The platform includes a wide range of features such as product listings, shopping cart functionality, user authentication, and order management.",
+      img: "/project/greenfields-agrotech.png",
+      link: "https://greenfields-agrotech.vercel.app"
+    },
+    {
       title: "Gadget Bazar BD | E-Commerce Website with Admin Panel",
       tags: ["Next.js Fullstack", "Tailwind CSS", "MongoDB"],
       desc: "Gadget Bazar BD is a comprehensive e-commerce platform built with Next.js and Tailwind CSS. It features a modern, responsive design with a focus on user experience. The platform includes a wide range of features such as product listings, shopping cart functionality, user authentication, and order management.",
       img: "/project/gadget-bazar.png",
       link: "https://gadgetbazarbd.store"
     },
-    {
-      title: "HealtPortal | Online Medicine Store with Admin Panel",
-      tags: ["Reactjs", "Tailwind CSS", "Java Spring Boot", "MongoDB"],
-      desc: "HealtPortal is a comprehensive online medicine store built with Reactjs and Java Spring Boot. It features a modern, responsive design with a focus on user experience. The platform includes a wide range of features such as product listings, shopping cart functionality, user authentication, and order management.",
-      img: "/project/health-portal.png",
-      link: "https://health-portall-1.vercel.app/medicines"
-    },
-    {
-      title: "GreenFields AgroTech | An Agro Company Portfolio",
-      tags: ["Reactjs", "Tailwind CSS", "Lucide Icons", "Framer Motion"],
-      desc: "GreenFields AgroTech is a comprehensive agro-based company portfolio website built with Reactjs and Tailwind CSS. It features a modern, responsive design with a focus on user experience. The platform includes a wide range of features such as product listings, shopping cart functionality, user authentication, and order management.",
-      img: "/project/greenfields-agrotech.png",
-      link: "https://greenfields-agrotech.vercel.app"
-    }
+    // {
+    //   title: "HealtPortal | Online Medicine Store with Admin Panel",
+    //   tags: ["Reactjs", "Tailwind CSS", "Java Spring Boot", "MongoDB"],
+    //   desc: "HealtPortal is a comprehensive online medicine store built with Reactjs and Java Spring Boot. It features a modern, responsive design with a focus on user experience. The platform includes a wide range of features such as product listings, shopping cart functionality, user authentication, and order management.",
+    //   img: "/project/health-portal.png",
+    //   link: "https://health-portall-1.vercel.app/medicines"
+    // },
+
   ];
 
   return (

@@ -17,14 +17,14 @@ export const Testimonials: React.FC = () => {
     {
       name: "Sarah Jenkins",
       role: "CTO @ TechFlow",
-      text: '"Alex didn\'t just build our app; he built a foundation for our entire future growth. His technical depth is unparalleled."',
+      text: '"Shihab didn\'t just build our app; he built a foundation for our entire future growth. His technical depth is unparalleled."',
       img: "/images/client/client-1.png",
       borderColor: "border-primary/20"
     },
     {
       name: "Marcus Thorne",
       role: "Founder @ ArchiSoft",
-      text: '"The level of precision in the UI Alex delivered was exactly what we were looking for. He is truly a master of the craft."',
+      text: '"The level of precision in the UI Shihab delivered was exactly what we were looking for. He is truly a master of the craft."',
       img: "/images/client/client-2.png",
       borderColor: "border-tertiary/20"
     }
