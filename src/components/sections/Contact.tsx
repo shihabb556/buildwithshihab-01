@@ -12,7 +12,7 @@ export const Contact: React.FC = () => {
         <div className="glass rounded-[3rem] border border-outline-variant/10 overflow-hidden flex flex-col lg:flex-row">
           <div className="lg:w-2/5 p-6 sm:p-12 bg-primary-container/20 flex flex-col justify-between">
             <div>
-              <h2 className="font-headline text-2xl sm:text-4xl font-bold mb-6">
+              <h2 className="font-headline text-2xl sm:text-2xl sm:text-4xl font-bold mb-6">
                 {t('contact.titlePrefix')} <span className="text-primary">{t('contact.titleHighlight')}</span>
               </h2>
               <p className="text-sm sm:text-base text-slate-400 mb-8">{t('contact.description')}</p>

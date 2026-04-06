@@ -34,7 +34,7 @@ export const Projects: React.FC = () => {
       <div className="max-w-7xl mx-auto px-8">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6">
           <div>
-            <h2 className="font-headline text-2xl sm:text-4xl font-bold mb-4">
+            <h2 className="font-headline text-2xl sm:text-2xl sm:text-4xl font-bold mb-4">
               {t('projects.titlePrefix')} <span className="text-primary">{t('projects.titleHighlight')}</span>
             </h2>
             <p className="text-sm sm:text-base text-slate-400">{t('projects.description')}</p>

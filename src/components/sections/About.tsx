@@ -24,7 +24,7 @@ export const About: React.FC = () => {
           </div>
 
           <div className="w-full md:w-2/3 space-y-8">
-            <h2 className="font-headline text-4xl font-bold tracking-tight">
+            <h2 className="font-headline text-2xl sm:text-4xl font-bold tracking-tight">
               {t('about.titlePrefix')} <span className="text-tertiary">{t('about.titleHighlight')}</span> {t('about.titleSuffix')}
             </h2>
             <p className="text-lg text-slate-400 leading-relaxed">

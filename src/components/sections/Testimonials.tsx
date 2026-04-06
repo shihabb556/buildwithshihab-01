@@ -35,7 +35,7 @@ export const Testimonials: React.FC = () => {
       <div className="max-w-7xl mx-auto px-8 overflow-hidden">
         <div className="flex flex-col md:flex-row items-center gap-16">
           <div className="w-full md:w-1/3">
-            <h2 className="font-headline text-2xl sm:text-4xl font-bold mb-6">
+            <h2 className="font-headline text-2xl sm:text-2xl sm:text-4xl font-bold mb-6">
               {t('testimonials.titlePrefix')} <span className="text-tertiary">{t('testimonials.titleHighlight')}</span>
             </h2>
             <p className="text-sm sm:text-base text-slate-400 mb-8">{t('testimonials.description')}</p>
