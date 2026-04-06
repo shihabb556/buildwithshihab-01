@@ -37,25 +37,27 @@ export const Hero: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-8 w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10">
         <div className="space-y-8">
-          <div className="inline-block px-4 py-1 rounded-full border border-primary/20 bg-primary/5 text-tertiary font-label text-sm font-medium tracking-widest uppercase">
+          <div className="inline-block px-4 py-1 rounded-full border border-primary/20 bg-primary/5 text-tertiary font-label text-xs sm:text-sm font-medium tracking-widest uppercase">
             {t('hero.availability')}
           </div>
 
-          <h1 className="font-headline text-3xl md:text-6xl font-bold tracking-tighter leading-tight">
+          <h1 className="font-headline text-2xl sm:text-6xl font-bold tracking-tighter leading-tight">
             {t('hero.namePrefix')} <span className="text-gradient">{t('hero.nameHighlight')}</span>
           </h1>
 
-          <p className="text-2xl md:text-3xl font-headline font-light text-on-surface-variant min-h-[4rem]">
+          <p className="text-xl sm:text-3xl font-headline font-light text-on-surface-variant min-h-[4rem]">
             {t('hero.titlePrefix')} <span className="text-primary font-medium">{typedTitle}</span><span className="animate-pulse">|</span>
           </p>
 
-          <p className="text-lg text-slate-400 max-w-lg leading-relaxed">
+          <p className="text-sm sm:text-lg text-slate-400 max-w-lg leading-relaxed">
             {t('hero.description')}
           </p>
 
           <div className="flex flex-wrap gap-4 pt-4">
-            <Button variant="primary" className="cursor-pointer" neon onClick={() => window.open('https://wa.me/8801770419889', '_blank')}>{t('hero.hireMe')}</Button>
-            <a href="#work" className="glass px-4 rounded-lg text-center flex items-center hover:bg-primary/15 transition-colors duration-300">{t('hero.viewProjects')}</a>
+            <Button variant="primary" className="cursor-pointer text-xs sm:text-sm" neon onClick={() => window.open('https://wa.me/8801770419889', '_blank')}>{t('hero.hireMe')}</Button>
+            <Button className="glass px-4 cursor-pointer rounded-lg text-center flex items-center hover:bg-primary/15 transition-colors duration-300 text-xs sm:text-sm">
+              <a href="#work" className="text-primary">{t('hero.viewProjects')}</a>
+            </Button>
           </div>
         </div>
 

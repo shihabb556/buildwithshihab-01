@@ -24,18 +24,18 @@ export const About: React.FC = () => {
           </div>
 
           <div className="w-full md:w-2/3 space-y-8">
-            <h2 className="font-headline text-2xl sm:text-4xl font-bold tracking-tight">
+            <h2 className="font-headline text-md sm:text-2xl font-bold tracking-tight">
               {t('about.titlePrefix')} <span className="text-tertiary">{t('about.titleHighlight')}</span> {t('about.titleSuffix')}
             </h2>
-            <p className="text-lg text-slate-400 leading-relaxed">
+            <p className="text-sm sm:text-base text-slate-400 leading-relaxed">
               {t('about.description')}
             </p>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
               {stats?.map((stat, index) => (
-                <div key={index} className="glass p-4 rounded-xl border border-outline-variant/10 text-center hover:border-primary/30 transition-colors">
-                  <span className="block text-3xl font-headline font-bold text-primary">{stat.value}</span>
-                  <span className="text-xs uppercase tracking-widest text-slate-500">{stat.label}</span>
+                <div key={index} className="glass py-3 sm:py-4 px-2 sm:px-4 rounded-xl border border-outline-variant/10 text-center hover:border-primary/30 transition-colors">
+                  <span className="block text-xl sm:text-3xl font-headline font-bold text-primary">{stat.value}</span>
+                  <span className="text-[10px] sm:text-xs uppercase tracking-widest text-slate-500">{stat.label}</span>
                 </div>
               ))}
             </div>
