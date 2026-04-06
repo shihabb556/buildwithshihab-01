@@ -35,19 +35,19 @@ export const Testimonials: React.FC = () => {
       <div className="max-w-7xl mx-auto px-8 overflow-hidden">
         <div className="flex flex-col md:flex-row items-center gap-16">
           <div className="w-full md:w-1/3">
-            <h2 className="font-headline text-4xl font-bold mb-6">
+            <h2 className="font-headline text-2xl sm:text-4xl font-bold mb-6">
               {t('testimonials.titlePrefix')} <span className="text-tertiary">{t('testimonials.titleHighlight')}</span>
             </h2>
-            <p className="text-slate-400 mb-8">{t('testimonials.description')}</p>
+            <p className="text-sm sm:text-base text-slate-400 mb-8">{t('testimonials.description')}</p>
             <div className="flex gap-4">
-              <button 
+              <button
                 onClick={scrollLeft}
                 className="w-12 h-12 rounded-full border border-outline-variant/20 flex items-center justify-center hover:bg-primary/20 transition-colors"
                 aria-label="Previous Testimonial"
               >
                 <ArrowLeft />
               </button>
-              <button 
+              <button
                 onClick={scrollRight}
                 className="w-12 h-12 rounded-full border border-outline-variant/20 flex items-center justify-center hover:bg-primary/20 transition-colors"
                 aria-label="Next Testimonial"
@@ -56,13 +56,13 @@ export const Testimonials: React.FC = () => {
               </button>
             </div>
           </div>
-          
-          <div 
+
+          <div
             ref={scrollRef}
             className="w-full md:w-2/3 flex gap-8 overflow-x-auto no-scrollbar pb-10 scroll-smooth snap-x snap-mandatory"
           >
             {testimonials.map((item, i) => (
-              <div key={i} className={`min-w-[400px] snap-center glass p-10 rounded-3xl border ${item.borderColor}`}>
+              <div key={i} className={`min-w-[300px] sm:min-w-[400px] snap-center glass p-6 sm:p-10 rounded-3xl border ${item.borderColor}`}>
                 <div className="flex items-center gap-4 mb-6">
                   <img alt={item.name} className="w-12 h-12 rounded-full object-cover" src={item.img} />
                   <div>
@@ -70,11 +70,11 @@ export const Testimonials: React.FC = () => {
                     <p className="text-xs text-slate-500 uppercase tracking-widest">{item.role}</p>
                   </div>
                 </div>
-                <p className="text-slate-300 italic">{item.text}</p>
+                <p className="text-xs sm:text-base text-slate-300 italic">{item.text}</p>
               </div>
             ))}
           </div>
-          
+
         </div>
       </div>
     </section>

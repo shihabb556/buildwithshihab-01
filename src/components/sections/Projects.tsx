@@ -34,12 +34,12 @@ export const Projects: React.FC = () => {
       <div className="max-w-7xl mx-auto px-8">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6">
           <div>
-            <h2 className="font-headline text-4xl font-bold mb-4">
+            <h2 className="font-headline text-2xl sm:text-4xl font-bold mb-4">
               {t('projects.titlePrefix')} <span className="text-primary">{t('projects.titleHighlight')}</span>
             </h2>
-            <p className="text-slate-400">{t('projects.description')}</p>
+            <p className="text-sm sm:text-base text-slate-400">{t('projects.description')}</p>
           </div>
-          <div className="flex gap-4">
+          <div className="flex gap-4 text-xs sm:text-base">
             <button className="text-primary font-bold border-b-2 border-primary">{t('projects.filters.all')}</button>
             <button className="text-slate-500 hover:text-slate-200 transition-colors">{t('projects.filters.frontend')}</button>
             <button className="text-slate-500 hover:text-slate-200 transition-colors">{t('projects.filters.fullstack')}</button>
@@ -54,15 +54,15 @@ export const Projects: React.FC = () => {
               </div>
               <div className="p-8">
                 <div className="flex justify-between items-start mb-4">
-                  <h4 className="text-xl font-bold font-headline">{project.title}</h4>
+                  <h4 className="text-md sm:text-xl font-bold font-headline">{project.title}</h4>
                   <a target="_blank" rel="noopener noreferrer" href={project.link}><ExternalLink className="text-primary w-6 h-6" /></a>
                 </div>
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.tags.map(tag => (
-                    <span key={tag} className="text-[10px] font-bold uppercase bg-surface-container-highest px-3 py-1 rounded-full text-tertiary">{tag}</span>
+                    <span key={tag} className="text-[8px] sm:text-[10px] font-bold uppercase bg-surface-container-highest px-3 py-1 rounded-full text-tertiary">{tag}</span>
                   ))}
                 </div>
-                <p className="text-slate-400 text-sm leading-relaxed mb-6">
+                <p className="text-slate-400 text-xs sm:text-sm leading-relaxed mb-6">
                   {project.desc}
                 </p>
               </div>
