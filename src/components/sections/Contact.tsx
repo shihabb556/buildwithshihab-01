@@ -12,10 +12,10 @@ export const Contact: React.FC = () => {
         <div className="glass rounded-[3rem] border border-outline-variant/10 overflow-hidden flex flex-col lg:flex-row">
           <div className="lg:w-2/5 p-6 sm:p-12 bg-primary-container/20 flex flex-col justify-between">
             <div>
-              <h2 className="font-headline text-4xl font-bold mb-6">
+              <h2 className="font-headline text-2xl sm:text-4xl font-bold mb-6">
                 {t('contact.titlePrefix')} <span className="text-primary">{t('contact.titleHighlight')}</span>
               </h2>
-              <p className="text-slate-400 mb-8">{t('contact.description')}</p>
+              <p className="text-sm sm:text-base text-slate-400 mb-8">{t('contact.description')}</p>
 
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
@@ -24,7 +24,7 @@ export const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-xs text-slate-500 uppercase tracking-widest">{t('contact.callLabel')}</p>
-                    <a target="_blank" rel="noopener noreferrer" href="https://wa.me/8801770419889" className="font-bold">+8801770419889</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://wa.me/8801770419889" className="font-bold text-xs sm:text-base">+8801770419889</a>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -33,7 +33,7 @@ export const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-xs text-slate-500 uppercase tracking-widest">{t('contact.emailLabel')}</p>
-                    <p className="font-bold">shihabaly333@gmail.com</p>
+                    <p className="font-bold text-xs sm:text-base">shihabaly333@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -42,7 +42,7 @@ export const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-xs text-slate-500 uppercase tracking-widest">{t('contact.locationLabel')}</p>
-                    <p className="font-bold">Mirpur, Dhaka, Bangladesh</p>
+                    <p className="font-bold text-xs sm:text-base">Mirpur, Dhaka, Bangladesh</p>
                   </div>
                 </div>
               </div>
